@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: georgia, sans-serif;
+  font-weight: 300;
+  background-color: steelblue;
+}
+
+.showcase-form h2 {
+  color: rgb(255, 255, 255);
+}
+.showcase-form .form-control {
+  margin: 20px 0;
+  font-size: 15px;
+  font-family: inherit;
+  color: rgb(255, 255, 255);
+}
+
+.showcase-form input[type="text"],
+.showcase-form input[type="email"],
+.showcase-form input[type="age"] {
+  border: 0;
+  /* border:none; */
+  /* border-bottom: 3px solid #050505; */
+  width: 100%;
+  padding: 3px;
+  font-size: 18px;
+  color: rgb(197, 15, 15);
+}
+.showcase-form input:focus {
+  outline: none;
+}
+.showcase-form input[type="text"],
+.showcase-form input[type="age"],
+.showcase-form input[type="email"] {
+  padding: 2px;
+  position: relative;
+  border: hidden;
+  border-bottom: 3px solid #0a0a0a;
+  background-color: inherit;
+  color: rgb(0, 0, 0);
+}
+.showcase-form label {
+  padding-right: 15px;
+  padding-left: -70px;
+  color: rgb(0, 0, 0);
+}
+
+.showcase-form h2 {
+  color: rgb(71, 5, 5);
+}
+.card {
+  background-color: transparent;
+  border-radius: 10px;
+  padding-left: 10px;
+  color: rgb(17, 3, 3);
+  box-shadow: 5px 2px 2px 3px rgba(136, 28, 28, 0.719);
+  margin: 10px;
+  position: relative;
+  left: 35%;
+  top: 100px;
+  padding: 10px;
+  height: 350px;
+  width: 300px;
+  z-index: 2px;
+  justify-self: flex-end;
+}
+.card h1 {
+  font-size: 25px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgba(248, 8, 8, 0.664);
+  border: none;
+  border-radius: 50px;
+}
+.btn {
+  outline: none;
+}
+.btn:hover {
+  background: rgb(47, 175, 8);
+  color: rgb(2, 2, 2);
+  transform: scale(1.1);
+}

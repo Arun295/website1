@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background: url(./icons/sb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+h1 {
+  color: antiquewhite;
+  font-weight: 700;
+  position: absolute;
+  top: 3%;
+  left: 350px;
+}
+p {
+  color: antiquewhite;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  left: 320px;
+}
+a {
+  color: green;
+}
+a:hover {
+  color: rgb(18, 121, 211);
+}
+.progress-bar {
+  background: rgb(0, 0, 0);
+  width: 300px;
+  height: 0.73cm;
+  box-shadow: 2px 2px 3px 2px rgb(10, 7, 7);
+  border-radius: 20px;
+  position: absolute;
+  left: 20%;
+  top: 15%;
+  overflow: hidden;
+}
+.progress-bar::before {
+  content: attr(data-label);
+  display: flex;
+  color: white;
+  position: relative;
+  top: 15%;
+  left: 2%;
+  background: rgb(28, 87, 10);
+  border-radius: 20px;
+  width: 260px;
+  min-width: 5px;
+  max-width: 300px;
+  animation: move 3s linear 0s 1 normal;
+}
+@keyframes move {
+  0% {
+    background: red;
+    width: 45px;
+  }
+  50% {
+    background: yellow;
+    width: 100px;
+  }
+  100% {
+    background: green;
+    width: 240px;
+  }
+}
+.p {
+  color: rgb(255, 247, 247);
+  position: absolute;
+  top: 16%;
+  left: 45%;
+}
+.progress-bar1 {
+  background: rgb(0, 0, 0);
+  width: 300px;
+  height: 0.73cm;
+  box-shadow: 2px 2px 3px 2px rgb(10, 7, 7);
+  border-radius: 20px;
+  position: absolute;
+  left: 20%;
+  top: 22%;
+  overflow: hidden;
+}
+.progress-bar1::before {
+  content: attr(data-label);
+  display: flex;
+  color: white;
+  position: relative;
+  top: 15%;
+  left: 2%;
+  background: rgb(28, 87, 10);
+  border-radius: 20px;
+  width: 245px;
+  min-width: 5px;
+  max-width: 300px;
+  animation: move 3s linear 0s 1 normal;
+}
+@keyframes move {
+  0% {
+    background: red;
+    width: 45px;
+  }
+  50% {
+    background: yellow;
+    width: 100px;
+  }
+  100% {
+    background: green;
+    width: 240px;
+  }
+}
+.h {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 23%;
+  left: 45%;
+}
+.progress-bar2 {
+  background: rgb(0, 0, 0);
+  width: 300px;
+  height: 0.73cm;
+  box-shadow: 2px 2px 3px 2px rgb(10, 7, 7);
+  border-radius: 20px;
+  position: absolute;
+  left: 20%;
+  top: 29.2%;
+  overflow: hidden;
+}
+.progress-bar2::before {
+  content: attr(data-label);
+  display: flex;
+  color: white;
+  position: relative;
+  top: 15%;
+  left: 2%;
+  background: rgb(28, 87, 10);
+  border-radius: 20px;
+  width: 250px;
+  min-width: 5px;
+  max-width: 300px;
+  animation: move 3s linear 0s 1 normal;
+}
+@keyframes move {
+  0% {
+    background: red;
+    width: 45px;
+  }
+  50% {
+    background: yellow;
+    width: 100px;
+  }
+  100% {
+    background: green;
+    width: 240px;
+  }
+}
+.c {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 30%;
+  left: 45%;
+}
+.progress-bar3 {
+  background: rgb(0, 0, 0);
+  width: 300px;
+  height: 0.73cm;
+  box-shadow: 2px 2px 3px 2px rgb(10, 7, 7);
+  border-radius: 20px;
+  position: absolute;
+  left: 20%;
+  top: 36.5%;
+  overflow: hidden;
+}
+.progress-bar3::before {
+  content: attr(data-label);
+  display: flex;
+  color: white;
+  position: relative;
+  top: 15%;
+  left: 2%;
+  background: rgb(28, 87, 10);
+  border-radius: 20px;
+  width: 230px;
+  min-width: 5px;
+  max-width: 300px;
+  animation: move 3s linear 0s 1 normal;
+}
+@keyframes move {
+  0% {
+    background: red;
+    width: 45px;
+  }
+  50% {
+    background: yellow;
+    width: 100px;
+  }
+  100% {
+    background: green;
+    width: 240px;
+  }
+}
+.j {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 37.5%;
+  left: 45%;
+}
+.progress-bar4 {
+  background: rgb(0, 0, 0);
+  width: 300px;
+  height: 0.73cm;
+  box-shadow: 2px 2px 3px 2px rgb(10, 7, 7);
+  border-radius: 20px;
+  position: absolute;
+  left: 20%;
+  top: 43.7%;
+  overflow: hidden;
+}
+.progress-bar4::before {
+  content: attr(data-label);
+  display: flex;
+  color: white;
+  position: relative;
+  top: 15%;
+  left: 2%;
+  background: rgb(28, 87, 10);
+  border-radius: 20px;
+  width: 230px;
+  min-width: 5px;
+  max-width: 300px;
+  animation: move 3s linear 0s 1 normal;
+}
+@keyframes move {
+  0% {
+    background: red;
+    width: 45px;
+  }
+  50% {
+    background: yellow;
+    width: 100px;
+  }
+  100% {
+    background: green;
+    width: 240px;
+  }
+}
+.d {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
